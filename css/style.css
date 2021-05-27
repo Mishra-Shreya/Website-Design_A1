@@ -283,8 +283,20 @@ button {
      background-position: right top;
      top: 0px;
      right: 0px;
-     height: 760px;
      width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+     .header_bg {
+          height: 760px;
+     }
+}
+
+/* For width 800px and larger: */
+@media only screen and (min-width: 1400px) {
+     .header_bg {
+          height: 950px;
+     }
 }
 
 .header {
