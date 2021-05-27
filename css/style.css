@@ -1,0 +1,446 @@
+
+
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: white !important;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
+.form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+     border: none !important;
+}
+
+.badge {
+     font-weight: 500;
+}
+
+blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full {
+     float: left;
+     width: 100%;
+}
+
+.layout_padding {
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+
+.layout_padding_2 {
+     padding-top: 75px;
+     padding-bottom: 75px;
+}
+
+.light_silver {
+     background: #f9f9f9;
+}
+
+.theme_bg {
+     background: #8358FF;
+}
+
+.margin_top_30 {
+     margin-top: 30px !important;
+}
+
+.full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+
+/**-- heading section --**/
+
+/*-- nav--*/
+
+.nav-bar {
+     display: flex; 
+     justify-content: flex-end;
+}
+
+/*-- costomer--*/
+
+.nav-bar ul.costomer {
+     display: flex; 
+}
+
+.nav-bar ul.costomer li {
+     color: #1f1716;
+     text-align: center;
+     font-size: small;
+     font-weight: 500;
+     padding-right: 60px;
+}
+
+.nav-bar img {
+     float: right !important;
+     width: 20% !important;
+     height: auto;
+}
+
+ul.costomer li a {
+     color: #fff;
+}
+
+
+/*-- header area --*/
+
+
+/*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
+
+.header_bg {
+     background: url(../design-assets-svg/Group\ 16.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: right top;
+     top: 0px;
+     right: 0px;
+     height: 760px;
+     max-height: 760px;
+}
+
+.header {
+     background: transparent;
+     width: 100%;
+     padding: 40px 0px 0px 0px;
+}
+
+.logo a {
+     font-size: 40px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+     line-height: 40px;
+}
+
+.banner_main {
+     background: transparent;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     padding-bottom: 90px;
+}
+
+.text-bg {
+     max-width: 426px;
+     float: right;
+     width: 100%;
+     padding-top: 100px;
+}
+
+.text-bg h5 {
+     color:  #8358FF;
+     font-size: 24px;
+     line-height: 30px;
+     font-weight: bold;
+     padding-top: 40px;
+}
+
+.text-bg span {
+     color: #1f1716;
+     font-size: 80px;
+     line-height: 77px;
+     font-weight: bold;
+}
+
+.text-bg p {
+     color: #1f1716;
+     font-size: 14px;
+     line-height: 28px;
+     padding: 5px 0 40px 0;
+}
+
+.text-bg img {
+     width: 30%;
+}
+
+.text-bg a {
+     font-size: 18px;
+     font-weight: bold;
+     background-color: #9671FF;
+     border-radius: 25px;
+     box-shadow: 0px 10px 10px #bca6ff;
+     color: #fff;
+     padding: 10px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     text-transform: uppercase;
+}
+
+.text-bg a:hover {
+     background-color: #8358FF;
+     color: #fff;
+}
+
+.text-img figure {
+     margin: 0px;
+}
+
+.text-img figure img {
+     width: 100%;
+}
+
+.titlepage {
+     text-align: center;
+     padding-bottom: 60px;
+}
+
+.titlepage h2 {
+     font-size: 45px;
+     color: #fff;
+     line-height: 40px;
+     font-weight: bold;
+     padding: 0;
+}
+
+
+/** Asked section **/
+
+.base {
+     padding-top: 100px;
+}
+
+.body-con h3 {
+     color: #4619D9;
+     font-size: 35px;
+     line-height: 30px;
+     font-weight: bold;
+     padding-top: 10px;
+}
+
+.body-con p {
+     color: #1f1716;
+     font-size: 12px;
+     line-height: 20px;
+     padding: 5px 0 40px 0;
+}
+
+.asked_main {
+     padding-top: 20px;
+     padding-bottom: 50px;
+}
+
+.asked_main .ask_img figure img {
+     width: 100%;
+}
+
+.asked_main .titlepage {
+     text-align: right;
+}
+
+.asked_main .titlepage h2 {
+     color: #000;
+}
+
+.slider span {
+     float: right;
+     cursor: pointer;
+     font-size: 30px;
+     line-height: 29px;
+     color: #8358FF;
+}
+
+.asked_main .ask_box {
+     max-width: 539px;
+     width: 100%;
+     float: left;
+}
+
+
+/** end Asked section **/
+
+/** footer **/
+
+.footer img{
+     width: 100%;
+}
+
+/** end footer **/
+
